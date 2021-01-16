@@ -78,6 +78,9 @@ object GetTweets {
         def onStallWarning(warning: StallWarning) {}
 
       }
+      val filterQuery = new FilterQuery
+      val language = "en"
+      filterQuery.language(language)
       twitterStream.addListener(statusListener)
       twitterStream.filter(topicToQuery)
     } catch {
