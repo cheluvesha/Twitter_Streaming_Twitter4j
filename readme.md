@@ -1,4 +1,4 @@
-## Project Title: Twitter Streaming And Publishing Data Into Kafka
+## Project Title: Twitter Streaming And Publishing The Data Into Kafka
 
 ## Project Description
 
@@ -8,7 +8,7 @@
 ## Required Dependencies 
 
 ### Twitter4j - 4.0.7
-    library which helps us to interact with twitter.
+    library which helps us to interact with twitter to query tweets.
     
 ### Kafka-clients - 2.4.1
     Kafka-clients is used to programtically create kafka producer and 
@@ -17,7 +17,7 @@
 ## Plugin used
 
 ### Assembly - 0.15.0
-    helps us to create fat jar
+    helps us to create a fat jar
         
 ### How To
     clone the repositary,
