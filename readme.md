@@ -21,9 +21,9 @@
         
 ### How To
     clone the repositary,
-    create twitter developer account and get twitter API keys,
+    create a twitter developer account and get the twitter API keys,
     use those keys as an environment variables with the name like which is declared as in program,
-    and kafka has to be installed on your local system, set broker and topic name also an environment variables,
+    and kafka has to be installed in your local system, set broker and topic name also as an environment variables,
     first run startkafka.sh file which will start kafka then run topic.sh which will create kafka topic.
     Use sbt to create jar by running: sbt assembly,
     now use this command to run the jar file: java -jar TwitterKafka-assembly-0.1.jar "Big Data"  
